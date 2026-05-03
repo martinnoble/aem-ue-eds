@@ -11,13 +11,16 @@
  */
 
 :root {
+  /* layout */
+  --max-content-width: 1200px;
+
   /* colors */
   --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
+  --light-color: #f5ede4;
+  --dark-color: #1a4d4d;
   --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --link-color: #1a4d4d;
+  --link-hover-color: #0d3333;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -233,7 +236,7 @@ main > .section {
 }
 
 main > .section > div {
-  max-width: 1200px;
+  max-width: var(--max-content-width);
   margin: auto;
   padding: 0 24px;
 }

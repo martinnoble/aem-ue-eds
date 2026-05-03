@@ -8,9 +8,6 @@ header .nav-wrapper {
 
 header nav {
   color: var(--background-color);
-}
-
-header nav {
   box-sizing: border-box;
   display: grid;
   grid-template:

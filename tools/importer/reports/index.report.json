@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide-intermediary.co.uk/",
+  "path": "index",
+  "timestamp": "2026-05-05T12:28:51.611Z",
+  "title": "Home | Nationwide For Intermediaries",
+  "template": "homepage",
+  "blocks": [
+    "hero",
+    "cards",
+    "cards",
+    "columns",
+    "columns",
+    "columns"
+  ]
+}

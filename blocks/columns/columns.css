@@ -1,10 +1,16 @@
+.columns {
+  margin-top: 48px;
+}
+
 .columns > div {
   display: flex;
   flex-direction: column;
+  gap: 24px;
 }
 
 .columns img {
   width: 100%;
+  border-radius: 8px;
 }
 
 .columns > div > div {
@@ -19,15 +25,38 @@
   display: block;
 }
 
+.columns h2 {
+  margin-top: 0;
+}
+
+.columns h3 {
+  margin-top: 0;
+}
+
+.columns p {
+  color: var(--text-color);
+  line-height: 1.4;
+}
+
+.columns a.button:any-link {
+  margin-top: 8px;
+}
+
 @media (width >= 900px) {
   .columns > div {
     align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+    flex-direction: row;
+    gap: 48px;
   }
 
   .columns > div > div {
     flex: 1;
     order: unset;
+  }
+}
+
+@media (width < 600px) {
+  .columns > div {
+    gap: 16px;
   }
 }
